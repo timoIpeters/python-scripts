@@ -4,13 +4,13 @@
 A script that provides **system**, **boot**, **CPU**, **RAM**, **SWAP**, **disk**, **GPU** and **network** information
 
 Prerequisites:
-´´´
+```
 pip install gputil
 pip install psutil
-´´´
+```
 
 Usage:
-´´´
+```
     -a --all     **_All Possible Details_**
     -s --system   **_System Details_**
     -b --boot     **_Boot Time_**
@@ -20,18 +20,18 @@ Usage:
     -d --disk     **_Disk Information_**
     -g --gpu      **_GPU Details_**
     -n --network  **_Network Information_**
-´´´
+```
 
 ## GIF Creator
 A script that generates GIFs from a specified set of images.
 
 Prerequisites:
-´´´
+```
 pip install Pillow
-´´´
+```
 
 Usage:
-´´´
+```
 python createGif.py [?args] [?options]
 
 options
@@ -46,4 +46,4 @@ options
     --destinationPath <directoryPath> Sets the destination directory of the gif
     -f <JPG/PNG>
     --filetype <JPG/PNG>              Sets the file type of the input images
-´´´
+```
